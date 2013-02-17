@@ -1,6 +1,5 @@
 import unittest
 from hoka.browser.base import BrowserView
-print 'sdfsdfsdf'
 
 class TestBase(unittest.TestCase):
 

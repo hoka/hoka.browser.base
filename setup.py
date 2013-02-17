@@ -24,7 +24,7 @@ setup(name='hoka.browser.base',
       url='http://eggserver.tcis.de/hoka.browser.base',
       license='GPL version 2',
       packages=find_packages(),
-      namespace_packages=['hoka'],
+      namespace_packages=['hoka','hoka.browser'],
       include_package_data=True,
       install_requires=[
         'setuptools',
@@ -38,6 +38,6 @@ setup(name='hoka.browser.base',
       zip_safe=False,
       entry_points='''
 [z3c.autoinclude.plugin]
-target = Zope2
+target = zope
 ''',
 )
